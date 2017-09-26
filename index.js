@@ -17,7 +17,7 @@ function bumpCounter() {
   };
 }
 
-function createAnimal(deadlyDevice) {
+function createAnimal(animalType) {
   return function(deadlyDevice) {
     return { animalType, deadlyDevice };
   }
